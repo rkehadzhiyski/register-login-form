@@ -1,11 +1,11 @@
+import { Register } from "./components/Register";
 
 function App() {
-
   return (
-    <>
-     <h1>Hello</h1>
-    </>
-  )
+    <div className='main'>  
+      <Register />
+    </div>
+  );
 }
 
-export default App
+export default App;
